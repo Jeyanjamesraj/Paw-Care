@@ -24,6 +24,7 @@ ESP8266 TX → VSDSquadron Mini PD6 (UART RX)
 ESP8266 RX → VSDSquadron Mini PD5 (UART TX)
 ESP8266 VCC → 3.3V
 ESP8266 GND → GND
+
 2️⃣ SIM800L (GSM Module)
 SIM800L TX → VSDSquadron Mini PD6 (Shared UART RX with ESP8266)
 SIM800L RX → VSDSquadron Mini PD5 (Shared UART TX with ESP8266)
@@ -35,15 +36,18 @@ MPU6050 SDA → VSDSquadron Mini PC1 (I2C SDA)
 MPU6050 SCL → VSDSquadron Mini PC2 (I2C SCL)
 MPU6050 VCC → 3.3V
 MPU6050 GND → GND
+
 4️⃣ DHT11 (Temperature & Humidity Sensor)
 DHT11 Data → VSDSquadron Mini PD0
 DHT11 VCC → 3.3V
 DHT11 GND → GND
+
 5️⃣ NEO-6M GPS Module
 GPS TX → VSDSquadron Mini PA0 (Software Serial RX)
 GPS RX → VSDSquadron Mini PA1 (Software Serial TX)
 GPS VCC → 3.3V
 GPS GND → GND
+
 ## Pinout Diagram
 <img src="CB.jpg" alt="Circuit Diagram" width="500">
 
